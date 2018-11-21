@@ -1,0 +1,842 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C05EA2521A07C0800BF0BDD /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C05EA2421A07C0800BF0BDD /* Networking.swift */; };
+		4C05EA2621A07C0800BF0BDD /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C05EA2421A07C0800BF0BDD /* Networking.swift */; };
+		4C05EA2721A07C0800BF0BDD /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C05EA2421A07C0800BF0BDD /* Networking.swift */; };
+		4C05EA2B21A084B400BF0BDD /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C05EA2A21A084B400BF0BDD /* Context.swift */; };
+		4C05EA2C21A084B400BF0BDD /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C05EA2A21A084B400BF0BDD /* Context.swift */; };
+		4C05EA2D21A084B400BF0BDD /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C05EA2A21A084B400BF0BDD /* Context.swift */; };
+		4C05EA2F21A084C200BF0BDD /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C05EA2E21A084C200BF0BDD /* Repository.swift */; };
+		4C05EA3021A084C200BF0BDD /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C05EA2E21A084C200BF0BDD /* Repository.swift */; };
+		4C05EA3121A084C200BF0BDD /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C05EA2E21A084C200BF0BDD /* Repository.swift */; };
+		4C05EA3321A1460100BF0BDD /* AnyCodingKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C05EA3221A1460100BF0BDD /* AnyCodingKey.swift */; };
+		4C05EA3421A1460100BF0BDD /* AnyCodingKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C05EA3221A1460100BF0BDD /* AnyCodingKey.swift */; };
+		4C05EA3521A1460100BF0BDD /* AnyCodingKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C05EA3221A1460100BF0BDD /* AnyCodingKey.swift */; };
+		4C0D7FE4219F311C00814AC6 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0D7FE3219F311C00814AC6 /* Channel.swift */; };
+		4C0D7FE5219F311C00814AC6 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0D7FE3219F311C00814AC6 /* Channel.swift */; };
+		4C0D7FE6219F311C00814AC6 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0D7FE3219F311C00814AC6 /* Channel.swift */; };
+		4C1A5A2B219FE79500F99F45 /* Twitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1A5A2A219FE79500F99F45 /* Twitch.swift */; };
+		4C1A5A2C219FE79500F99F45 /* Twitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1A5A2A219FE79500F99F45 /* Twitch.swift */; };
+		4C1A5A2D219FE79500F99F45 /* Twitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1A5A2A219FE79500F99F45 /* Twitch.swift */; };
+		4C1A5A3C21A040A800F99F45 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1A5A3B21A040A800F99F45 /* Extensions.swift */; };
+		4C1A5A3D21A040A800F99F45 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1A5A3B21A040A800F99F45 /* Extensions.swift */; };
+		4C1A5A3E21A040A800F99F45 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1A5A3B21A040A800F99F45 /* Extensions.swift */; };
+		4C1A5A4021A041F400F99F45 /* Identity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1A5A3F21A041F400F99F45 /* Identity.swift */; };
+		4C1A5A4121A041F400F99F45 /* Identity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1A5A3F21A041F400F99F45 /* Identity.swift */; };
+		4C1A5A4221A041F400F99F45 /* Identity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1A5A3F21A041F400F99F45 /* Identity.swift */; };
+		4C1A5A4521A04D5B00F99F45 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1A5A4421A04D5B00F99F45 /* Service.swift */; };
+		4C1A5A4621A04D5B00F99F45 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1A5A4421A04D5B00F99F45 /* Service.swift */; };
+		4C1A5A4721A04D5B00F99F45 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1A5A4421A04D5B00F99F45 /* Service.swift */; };
+		4C1A5A4F21A04EB400F99F45 /* Future.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1A5A4E21A04EB400F99F45 /* Future.swift */; };
+		4C1A5A5021A04EB400F99F45 /* Future.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1A5A4E21A04EB400F99F45 /* Future.swift */; };
+		4C1A5A5121A04EB400F99F45 /* Future.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1A5A4E21A04EB400F99F45 /* Future.swift */; };
+		4C1A5A5321A0516A00F99F45 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1A5A5221A0516A00F99F45 /* Result.swift */; };
+		4C1A5A5421A0516A00F99F45 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1A5A5221A0516A00F99F45 /* Result.swift */; };
+		4C1A5A5521A0516A00F99F45 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1A5A5221A0516A00F99F45 /* Result.swift */; };
+		4C1A5A5721A055E400F99F45 /* UnsharedLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1A5A5621A055E400F99F45 /* UnsharedLock.swift */; };
+		4C1A5A5821A055E400F99F45 /* UnsharedLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1A5A5621A055E400F99F45 /* UnsharedLock.swift */; };
+		4C1A5A5921A055E400F99F45 /* UnsharedLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1A5A5621A055E400F99F45 /* UnsharedLock.swift */; };
+		4C1BF53321988B080046C364 /* InnKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C1BF52A21988B080046C364 /* InnKit.framework */; };
+		4C1BF54521988D7B0046C364 /* InnKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C1BF54121988C420046C364 /* InnKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C1BF54621988D800046C364 /* InnKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C1BF54121988C420046C364 /* InnKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C1BF53421988B080046C364 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C1BF50121988A1C0046C364 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C1BF52921988B080046C364;
+			remoteInfo = InnKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C05EA2421A07C0800BF0BDD /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		4C05EA2A21A084B400BF0BDD /* Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
+		4C05EA2E21A084C200BF0BDD /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		4C05EA3221A1460100BF0BDD /* AnyCodingKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyCodingKey.swift; sourceTree = "<group>"; };
+		4C0D7FE3219F311C00814AC6 /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		4C1A5A2A219FE79500F99F45 /* Twitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Twitch.swift; sourceTree = "<group>"; };
+		4C1A5A3B21A040A800F99F45 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4C1A5A3F21A041F400F99F45 /* Identity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identity.swift; sourceTree = "<group>"; };
+		4C1A5A4421A04D5B00F99F45 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		4C1A5A4E21A04EB400F99F45 /* Future.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Future.swift; sourceTree = "<group>"; };
+		4C1A5A5221A0516A00F99F45 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		4C1A5A5621A055E400F99F45 /* UnsharedLock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsharedLock.swift; sourceTree = "<group>"; };
+		4C1BF50A21988A1C0046C364 /* InnKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InnKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C1BF51A21988A1C0046C364 /* InnKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InnKitTests-Info.plist"; sourceTree = "<group>"; };
+		4C1BF52A21988B080046C364 /* InnKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InnKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C1BF53221988B080046C364 /* InnKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InnKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C1BF54121988C420046C364 /* InnKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InnKit.h; sourceTree = "<group>"; };
+		4C1BF54221988C420046C364 /* InnKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InnKit-Info.plist"; sourceTree = "<group>"; };
+		4C1BF54C21988D990046C364 /* InnKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InnKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C1BF50721988A1C0046C364 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1BF52721988B080046C364 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1BF52F21988B080046C364 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1BF53321988B080046C364 /* InnKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1BF54921988D990046C364 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C05EA2821A07EF100BF0BDD /* Platforms */ = {
+			isa = PBXGroup;
+			children = (
+				4C1A5A2A219FE79500F99F45 /* Twitch.swift */,
+			);
+			path = Platforms;
+			sourceTree = "<group>";
+		};
+		4C05EA2921A0849D00BF0BDD /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				4C1A5A4421A04D5B00F99F45 /* Service.swift */,
+				4C1A5A3F21A041F400F99F45 /* Identity.swift */,
+				4C05EA2E21A084C200BF0BDD /* Repository.swift */,
+				4C05EA2421A07C0800BF0BDD /* Networking.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		4C1A5A4D21A04EA300F99F45 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				4C1A5A5221A0516A00F99F45 /* Result.swift */,
+				4C1A5A4E21A04EB400F99F45 /* Future.swift */,
+				4C1A5A3B21A040A800F99F45 /* Extensions.swift */,
+				4C1A5A5621A055E400F99F45 /* UnsharedLock.swift */,
+				4C05EA3221A1460100BF0BDD /* AnyCodingKey.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		4C1BF50021988A1C0046C364 = {
+			isa = PBXGroup;
+			children = (
+				4C1BF50C21988A1C0046C364 /* Sources */,
+				4C1BF51721988A1C0046C364 /* Tests */,
+				4C1BF52421988A490046C364 /* Supporting Files */,
+				4C1BF50B21988A1C0046C364 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C1BF50B21988A1C0046C364 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C1BF50A21988A1C0046C364 /* InnKit.framework */,
+				4C1BF52A21988B080046C364 /* InnKit.framework */,
+				4C1BF53221988B080046C364 /* InnKitTests.xctest */,
+				4C1BF54C21988D990046C364 /* InnKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C1BF50C21988A1C0046C364 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4C05EA2A21A084B400BF0BDD /* Context.swift */,
+				4C0D7FE3219F311C00814AC6 /* Channel.swift */,
+				4C05EA2921A0849D00BF0BDD /* Protocols */,
+				4C05EA2821A07EF100BF0BDD /* Platforms */,
+				4C1A5A4D21A04EA300F99F45 /* Utilities */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		4C1BF51721988A1C0046C364 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		4C1BF52421988A490046C364 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C1BF54121988C420046C364 /* InnKit.h */,
+				4C1BF54221988C420046C364 /* InnKit-Info.plist */,
+				4C1BF51A21988A1C0046C364 /* InnKitTests-Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4C1BF50521988A1C0046C364 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1BF54521988D7B0046C364 /* InnKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1BF52521988B080046C364 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1BF54621988D800046C364 /* InnKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1BF54721988D990046C364 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4C1BF50921988A1C0046C364 /* InnKit iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C1BF51E21988A1C0046C364 /* Build configuration list for PBXNativeTarget "InnKit iOS" */;
+			buildPhases = (
+				4C1BF50521988A1C0046C364 /* Headers */,
+				4C1BF50621988A1C0046C364 /* Sources */,
+				4C1BF50721988A1C0046C364 /* Frameworks */,
+				4C1BF50821988A1C0046C364 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "InnKit iOS";
+			productName = InnKit;
+			productReference = 4C1BF50A21988A1C0046C364 /* InnKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4C1BF52921988B080046C364 /* InnKit macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C1BF53B21988B080046C364 /* Build configuration list for PBXNativeTarget "InnKit macOS" */;
+			buildPhases = (
+				4C1BF52521988B080046C364 /* Headers */,
+				4C1BF52621988B080046C364 /* Sources */,
+				4C1BF52721988B080046C364 /* Frameworks */,
+				4C1BF52821988B080046C364 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "InnKit macOS";
+			productName = InnKit;
+			productReference = 4C1BF52A21988B080046C364 /* InnKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4C1BF53121988B080046C364 /* InnKit Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C1BF53E21988B080046C364 /* Build configuration list for PBXNativeTarget "InnKit Tests" */;
+			buildPhases = (
+				4C1BF52E21988B080046C364 /* Sources */,
+				4C1BF52F21988B080046C364 /* Frameworks */,
+				4C1BF53021988B080046C364 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C1BF53521988B080046C364 /* PBXTargetDependency */,
+			);
+			name = "InnKit Tests";
+			productName = InnKitTests;
+			productReference = 4C1BF53221988B080046C364 /* InnKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C1BF54B21988D990046C364 /* InnKit watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C1BF55121988D990046C364 /* Build configuration list for PBXNativeTarget "InnKit watchOS" */;
+			buildPhases = (
+				4C1BF54721988D990046C364 /* Headers */,
+				4C1BF54821988D990046C364 /* Sources */,
+				4C1BF54921988D990046C364 /* Frameworks */,
+				4C1BF54A21988D990046C364 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "InnKit watchOS";
+			productName = InnKit;
+			productReference = 4C1BF54C21988D990046C364 /* InnKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C1BF50121988A1C0046C364 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = kAzec;
+				TargetAttributes = {
+					4C1BF50921988A1C0046C364 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+					4C1BF52921988B080046C364 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+					4C1BF53121988B080046C364 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					4C1BF54B21988D990046C364 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = 4C1BF50421988A1C0046C364 /* Build configuration list for PBXProject "InnKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4C1BF50021988A1C0046C364;
+			productRefGroup = 4C1BF50B21988A1C0046C364 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C1BF50921988A1C0046C364 /* InnKit iOS */,
+				4C1BF52921988B080046C364 /* InnKit macOS */,
+				4C1BF54B21988D990046C364 /* InnKit watchOS */,
+				4C1BF53121988B080046C364 /* InnKit Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C1BF50821988A1C0046C364 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1BF52821988B080046C364 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1BF53021988B080046C364 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1BF54A21988D990046C364 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C1BF50621988A1C0046C364 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C05EA2521A07C0800BF0BDD /* Networking.swift in Sources */,
+				4C1A5A4F21A04EB400F99F45 /* Future.swift in Sources */,
+				4C05EA3321A1460100BF0BDD /* AnyCodingKey.swift in Sources */,
+				4C1A5A2B219FE79500F99F45 /* Twitch.swift in Sources */,
+				4C05EA2B21A084B400BF0BDD /* Context.swift in Sources */,
+				4C1A5A3C21A040A800F99F45 /* Extensions.swift in Sources */,
+				4C1A5A4521A04D5B00F99F45 /* Service.swift in Sources */,
+				4C0D7FE4219F311C00814AC6 /* Channel.swift in Sources */,
+				4C1A5A5321A0516A00F99F45 /* Result.swift in Sources */,
+				4C1A5A4021A041F400F99F45 /* Identity.swift in Sources */,
+				4C1A5A5721A055E400F99F45 /* UnsharedLock.swift in Sources */,
+				4C05EA2F21A084C200BF0BDD /* Repository.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1BF52621988B080046C364 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C05EA2621A07C0800BF0BDD /* Networking.swift in Sources */,
+				4C1A5A5021A04EB400F99F45 /* Future.swift in Sources */,
+				4C05EA3421A1460100BF0BDD /* AnyCodingKey.swift in Sources */,
+				4C1A5A2C219FE79500F99F45 /* Twitch.swift in Sources */,
+				4C05EA2C21A084B400BF0BDD /* Context.swift in Sources */,
+				4C1A5A3D21A040A800F99F45 /* Extensions.swift in Sources */,
+				4C1A5A4621A04D5B00F99F45 /* Service.swift in Sources */,
+				4C0D7FE5219F311C00814AC6 /* Channel.swift in Sources */,
+				4C1A5A5421A0516A00F99F45 /* Result.swift in Sources */,
+				4C1A5A4121A041F400F99F45 /* Identity.swift in Sources */,
+				4C1A5A5821A055E400F99F45 /* UnsharedLock.swift in Sources */,
+				4C05EA3021A084C200BF0BDD /* Repository.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1BF52E21988B080046C364 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1BF54821988D990046C364 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C05EA2721A07C0800BF0BDD /* Networking.swift in Sources */,
+				4C1A5A5121A04EB400F99F45 /* Future.swift in Sources */,
+				4C05EA3521A1460100BF0BDD /* AnyCodingKey.swift in Sources */,
+				4C1A5A2D219FE79500F99F45 /* Twitch.swift in Sources */,
+				4C05EA2D21A084B400BF0BDD /* Context.swift in Sources */,
+				4C1A5A3E21A040A800F99F45 /* Extensions.swift in Sources */,
+				4C1A5A4721A04D5B00F99F45 /* Service.swift in Sources */,
+				4C0D7FE6219F311C00814AC6 /* Channel.swift in Sources */,
+				4C1A5A5521A0516A00F99F45 /* Result.swift in Sources */,
+				4C1A5A4221A041F400F99F45 /* Identity.swift in Sources */,
+				4C1A5A5921A055E400F99F45 /* UnsharedLock.swift in Sources */,
+				4C05EA3121A084C200BF0BDD /* Repository.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C1BF53521988B080046C364 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C1BF52921988B080046C364 /* InnKit macOS */;
+			targetProxy = 4C1BF53421988B080046C364 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4C1BF51C21988A1C0046C364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4C1BF51D21988A1C0046C364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4C1BF51F21988A1C0046C364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/InnKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uncosmos.InnKit;
+				PRODUCT_NAME = InnKit;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C1BF52021988A1C0046C364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/InnKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uncosmos.InnKit;
+				PRODUCT_NAME = InnKit;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4C1BF53C21988B080046C364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/InnKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uncosmos.InnKit;
+				PRODUCT_NAME = InnKit;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		4C1BF53D21988B080046C364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/InnKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uncosmos.InnKit;
+				PRODUCT_NAME = InnKit;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		4C1BF53F21988B080046C364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Supporting Files/InnKitTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uncosmos.InnKitTests;
+				PRODUCT_NAME = InnKitTests;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		4C1BF54021988B080046C364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Supporting Files/InnKitTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uncosmos.InnKitTests;
+				PRODUCT_NAME = InnKitTests;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		4C1BF55221988D990046C364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/InnKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uncosmos.InnKit;
+				PRODUCT_NAME = InnKit;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		4C1BF55321988D990046C364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/InnKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uncosmos.InnKit;
+				PRODUCT_NAME = InnKit;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C1BF50421988A1C0046C364 /* Build configuration list for PBXProject "InnKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C1BF51C21988A1C0046C364 /* Debug */,
+				4C1BF51D21988A1C0046C364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C1BF51E21988A1C0046C364 /* Build configuration list for PBXNativeTarget "InnKit iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C1BF51F21988A1C0046C364 /* Debug */,
+				4C1BF52021988A1C0046C364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C1BF53B21988B080046C364 /* Build configuration list for PBXNativeTarget "InnKit macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C1BF53C21988B080046C364 /* Debug */,
+				4C1BF53D21988B080046C364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C1BF53E21988B080046C364 /* Build configuration list for PBXNativeTarget "InnKit Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C1BF53F21988B080046C364 /* Debug */,
+				4C1BF54021988B080046C364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C1BF55121988D990046C364 /* Build configuration list for PBXNativeTarget "InnKit watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C1BF55221988D990046C364 /* Debug */,
+				4C1BF55321988D990046C364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C1BF50121988A1C0046C364 /* Project object */;
+}
